@@ -536,11 +536,6 @@ input::placeholder {
 
 
 @media screen and (max-width: 1229px) {
-  //.container {
-  //  margin-left: 20px;
-  //  margin-right: 20px;
-  //}
-
   .pros-image {
     width: 480px;
   }
@@ -689,11 +684,6 @@ input::placeholder {
 }
 
 @media screen and (max-width: 849px) {
-  /*.main-image::before, .main-image::after {*/
-  /*    width: 140px;*/
-  /*    height: 140px;*/
-  /*}*/
-
   .about-us .container {
     grid-column-gap: 1%;
   }
@@ -750,11 +740,6 @@ input::placeholder {
 }
 
 @media screen and (max-width: 768px) {
-  //.container {
-  //  margin-right: 15px;
-  //  margin-left: 15px;
-  //}
-
   .header .phone {
     visibility: hidden;
   }

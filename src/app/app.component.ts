@@ -74,4 +74,26 @@ export class AppComponent {
     target.classList.remove('open');
   }
 
+  public createOrder(){
+    if (!this.formValues.productTitle) {
+      alert('Выберите macaroons');
+      return;
+    }
+    if (!this.formValues.customerName) {
+      alert('Введите ваше имя');
+      return;
+    }
+    if (!this.phone) {
+      alert('Введите номер телефона');
+      return;
+    }
+
+    alert('Спасибо за заказ');
+
+    this.formValues = {
+      productTitle: '',
+      customerName: '',
+      phone: '',
+    }
+  }
 }
